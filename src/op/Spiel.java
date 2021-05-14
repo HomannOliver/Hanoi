@@ -1,5 +1,7 @@
 package op;
 
 public class Spiel {
-    //olli ist wyldlit
+    public static void main(String[] args) {
+		
+	}
 }
