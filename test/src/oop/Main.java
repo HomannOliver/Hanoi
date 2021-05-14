@@ -1,4 +1,4 @@
-package oop;
+package src.oop;
 
 public class Main {
 
