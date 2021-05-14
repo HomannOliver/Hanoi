@@ -11,10 +11,12 @@ public class Turm {
 	}
 	
 	public void setStein(Stein hStein) {
-		if(Turm.size() < TURM_HOEHE) {
+		if(Turm.size() < TURM_HOEHE && hStein.getSize() < Turm.get(Turm.size()).getSize()) {
 			Turm.add(hStein);
-		} else {
+		} else if (Turm.size() == TURM_HOEHE){
 			System.out.println("Turm ist Voll");
+		} else { 
+			System.out.println("Stein ist größer als der oberste auf dem Turm");
 		}
 	}
 	
