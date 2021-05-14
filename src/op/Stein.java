@@ -2,6 +2,10 @@ package op;
 
 public class Stein {
 	
+	enum Color {
+		BLAU, ROT, GRÜN
+	}
+	
 	public Stein(int size, String color) { //Werte (Größe, Farbe) anfangs festlegen
 		this.size = size;
 		this.color = color;
