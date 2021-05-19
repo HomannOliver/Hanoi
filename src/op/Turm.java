@@ -24,4 +24,8 @@ public class Turm {
 		return Turm.size();
 	}
 	
+	public Stein getStein() {
+		return this.Turm.get(Turm.size()-1);
+	}
+	
 }
